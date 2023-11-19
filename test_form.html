@@ -22,25 +22,6 @@
     <td><INPUT TYPE="submit" VALUE="send"></td>
   </tr>
   
-<tr>
-  <?php
-  $andreea= '192.168.135.111';
-  $dragos= '192.168.135.223';
-  $cristiana= '192.168.135.151';
-    #print_r($_SERVER);
-    if($_SERVER['REMOTE_ADDR'] == $andreea){
-        
-        print '<b>'.'Andreea'.'</b>';
-
-    }
-    else if ($_SERVER['REMOTE_ADDR']==$cristiana){
-        print '<b>'.'Cristiana'.'</b>';
-    }
-    else if ($_SERVER['REMOTE_ADDR']==$dragos){
-        print '<b>'.'Dragos'.'</b>';
-    }
-?>
-</tr>
  </table>
  </form>
  
